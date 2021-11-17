@@ -19,10 +19,7 @@ public class CSEventHandler {
     public void onBonemeal(final BonemealEvent event){
         if(!freezeTime){
             Minecraft.getInstance().timer = new Timer(1.0F, 0L);
-        }else{
-            Minecraft.getInstance().timer = new Timer(20.0F, 0L);
         }
-        freezeTime = !freezeTime;
     }
 
     public void canUpdate(final EntityEvent event){
