@@ -1,0 +1,6 @@
+{
+  "stopwatch": {
+    "subtitle": "clockstoppers.subtitle.stopwatch",
+    "sounds": [ "clockstoppers:stopwatch" ]
+  }
+}

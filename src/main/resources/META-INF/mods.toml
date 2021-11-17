@@ -4,12 +4,12 @@ license="All rights reserved"
 [[mods]] #mandatory
 modId="clockstoppers" #mandatory
 version="${file.jarVersion}" #mandatory
-displayName="ClockStoppers Mod" #mandatory
+displayName="ClockStoppers" #mandatory
 logoFile="icon.png" #optional
-credits="hansy_boi" #optional
+credits="hansy_boi for commissioning; CrazyOtters for textures" #optional
 authors="GreenOne" #optional
 description='''
-This mod allows for the freezing of time
+This mod adds a Stopwatch item that allows for the freezing of time.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.clockstoppers]] #optional
