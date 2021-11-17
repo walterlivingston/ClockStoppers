@@ -1,0 +1,27 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All rights reserved"
+[[mods]] #mandatory
+modId="clockstoppers" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="ClockStoppers Mod" #mandatory
+logoFile="icon.png" #optional
+credits="hansy_boi" #optional
+authors="GreenOne" #optional
+description='''
+This mod allows for the freezing of time
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.clockstoppers]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[36,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.clockstoppers]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
